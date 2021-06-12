@@ -1,0 +1,97 @@
+.card {
+  width: 18rem;
+  margin: 10px;
+  margin-left: 20px;
+  display: flex;
+  background-color: rgb(189, 189, 189);
+  box-shadow: 2px;
+  height: 25rem;
+}
+
+img {
+  height: 10rem;
+  width: 100%;
+  align-items: center;
+}
+.con {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-title {
+  color: white;
+  background-color: black;
+  height: 50px !important;
+  padding: 10px;
+}
+
+.model {
+  background-color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    margin-right: 26%;
+  }
+}
+
+@media only screen and (max-width: 815px) {
+  .card {
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .card {
+    margin-left: 40%;
+  }
+}
+
+@media only screen and (max-width: 1310px) {
+  .card {
+    margin-left: 40%;
+  }
+}
+
+@media only screen and (max-width: 1387px) {
+  .card {
+    margin-left: 40%;
+  }
+}
+
+@media only screen and (max-width: 1206px) {
+  .card {
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .card {
+    margin-left: 40%;
+  }
+}
+
+@media only screen and (max-width: 552px) {
+  .card {
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (max-width: 432px) {
+  .card {
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .card {
+    margin-left: 0%;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  .card {
+    margin-left: 10%;
+  }
+}
